@@ -1,0 +1,85 @@
+body{font-family: 'Montserrat', sans-serif;
+background-color: #81C784;
+color: white; }
+
+.mainHeader{
+	text-align: center;
+}
+
+.profilePicture{
+	width: 200px;
+	border-radius: 10rem;
+	display: flex;
+    align-self: center;	
+    transition: all 0.5s;
+
+}
+.profilePicture:hover{
+	transform:scale(1.4); 
+}
+
+
+
+.publicProfile
+{
+    padding: 1rem 5rem;
+	display: grid;
+	justify-items: center;
+    grid-gap: 50px
+
+
+}
+.instagram{
+	width: 30px;
+	padding: 1px 10px;
+
+}
+.facebook{
+	width: 30px;
+	padding: 1px 10px;
+
+}
+
+.media{
+	display: flex;
+	padding: 10px 10px;
+
+}
+.linkedin{
+	width: 30px;
+	padding: 1px 10px;
+
+}
+.sjhs-logo-img{
+	height:  3rem;
+	transition: all 0.5s;
+
+}
+
+.scos-logo-img
+{
+   width: 100px;
+   border-radius: 1rem;	
+   transition: all 0.5s;
+}
+.Education{
+	
+	display: grid;
+	grid-gap: px;
+	align-items: center;
+	justify-content: center;
+}
+.scos-logo-img:hover
+{transform:scale(1.4); 
+}
+.sjhs-logo-img:hover{
+	transform:scale(1.4);
+}
+.edu{
+	padding-left: 50px;
+	text-decoration-line:underline; 
+}
+.Certifications
+{   display: flex;
+	align-content:flex-end;
+}
